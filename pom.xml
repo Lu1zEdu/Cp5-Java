@@ -6,13 +6,20 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.4.11</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/>
 	</parent>
 	<groupId>fiap.com</groupId>
 	<artifactId>Cp5-Java</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Cp5-Java</name>
 	<description>Prova de Java do Luiz Eduardo Da Silva Pinto</description>
+	<distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Lu1zEdu Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/Lu1zEdu/Cp5-Java</url>
+        </repository>
+    </distributionManagement>
 	<url/>
 	<licenses>
 		<license/>
